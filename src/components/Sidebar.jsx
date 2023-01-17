@@ -58,7 +58,6 @@ const Sidebar = () => {
                     ))}
                 </div>
             </>)}
-
         </div>
     )
 }
