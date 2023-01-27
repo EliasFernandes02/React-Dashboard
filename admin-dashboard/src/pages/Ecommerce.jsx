@@ -1,8 +1,21 @@
 import React from 'react';
-
+import { BsCurrencyDollar } from 'react-icons/bs';
+import {GoPrimitiveDot} from 'react-icons/go';
+import {Stacked, Pie,Button,SparkLine} from '../components';
+import { earningData,SparkLineAreaData,ecomPieChartDat } from '../data/dummy';
+import { useStateContext } from '../context/ContextProvider';
+import Banner2 from '../Assets/Banner2.jpg';
 const Ecommerce = () => {
     return(
-        <div>Ecommerce</div>
+        <div className="mt-12">
+            <div className="flex flex-wrap lg:flex-nowrap justify-center">
+                <div className="bg-white dark:text-gray-200 dark:bg-secondary-dark-bg  rounded-xl w-full lg:w-90  pt-9 m-3 bg-hero-pattern  bg-no-repeat bg-cover bg-center">
+                    <img src={Banner2} style={{height:"350px", width:"100%"}} />
+
+                </div>
+
+            </div>
+        </div>
     )
 }
 export default Ecommerce;

@@ -48,7 +48,7 @@ import {useStateContext} from './context/ContextProvider';
 
                          </div>
 
-                     </div>
+                     
                      <div>
                          <Routes>
 
@@ -74,6 +74,7 @@ import {useStateContext} from './context/ContextProvider';
                              <Route path="/pyramid" element={<Pyramid/>}/>
                              <Route path="/stacked" element={<Stacked/>}/>
                          </Routes>
+                        </div>
                      </div>
                  </div>
              </BrowserRouter>
